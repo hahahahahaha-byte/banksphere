@@ -3,12 +3,13 @@ import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  apiKey: "AIzaSyAkrOrlVWdUcgenD-tUO-kyBL7-BVTPqz8",
+  authDomain: "fyp-hackathon-de17c.firebaseapp.com",
+  projectId: "fyp-hackathon-de17c",
+  storageBucket: "fyp-hackathon-de17c.firebasestorage.app",
+  messagingSenderId: "262268814162",
+  appId: "1:262268814162:web:0715ee7b24d29adca3b08b",
+  measurementId: "G-S2KQEW8S8M"
 };
 
 const app = initializeApp(firebaseConfig);
