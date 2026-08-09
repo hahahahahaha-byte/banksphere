@@ -1,0 +1,25 @@
+/* BankSphere App Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidebar .nav-link:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.025);
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+}
+
+.btn {
+  border-radius: 8px;
+}
+
+.login-container {
+  min-height: 100vh;
+}

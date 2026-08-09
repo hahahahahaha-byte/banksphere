@@ -1,0 +1,85 @@
+{
+  "customers": [
+    {
+      "id": "cust_001",
+      "userId": "user_cust_001",
+      "name": "Ahmed Khan",
+      "email": "ahmed@example.com",
+      "accountNumber": "ACC-1001",
+      "balance": 250000,
+      "status": "active"
+    }
+  ],
+  "employees": [
+    {
+      "id": "emp_001",
+      "userId": "user_emp_001",
+      "name": "Ali Raza",
+      "email": "ali@bank.com",
+      "salary": 60000,
+      "status": "active"
+    }
+  ],
+  "managers": [
+    {
+      "id": "mgr_001",
+      "userId": "user_mgr_001",
+      "name": "Usman Malik",
+      "email": "manager@bank.com",
+      "status": "active"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "txn_001",
+      "customerId": "user_cust_001",
+      "customerName": "Ahmed Khan",
+      "customerEmail": "ahmed@example.com",
+      "type": "deposit",
+      "amount": 50000,
+      "status": "approved",
+      "createdAt": "2026-02-20T10:30:00Z"
+    },
+    {
+      "id": "txn_002",
+      "customerId": "user_cust_001",
+      "customerName": "Ahmed Khan",
+      "customerEmail": "ahmed@example.com",
+      "type": "withdraw",
+      "amount": 20000,
+      "status": "pending",
+      "createdAt": "2026-02-21T08:15:00Z"
+    }
+  ],
+  "loans": [
+    {
+      "id": "loan_001",
+      "customerId": "user_cust_001",
+      "customerName": "Ahmed Khan",
+      "customerEmail": "ahmed@example.com",
+      "amount": 800000,
+      "purpose": "Business Expansion",
+      "duration": "12 months",
+      "status": "approved",
+      "approvedBy": "employee",
+      "approvedById": "user_emp_001",
+      "createdAt": "2026-01-15T09:00:00Z"
+    },
+    {
+      "id": "loan_002",
+      "customerId": "user_cust_001",
+      "customerName": "Ahmed Khan",
+      "customerEmail": "ahmed@example.com",
+      "amount": 1500000,
+      "purpose": "Property Purchase",
+      "duration": "24 months",
+      "status": "pending",
+      "createdAt": "2026-02-22T11:00:00Z"
+    }
+  ],
+  "bankSummary": {
+    "totalBalance": 15000000,
+    "totalLoansIssued": 6500000,
+    "activeCustomers": 120
+  }
+}
